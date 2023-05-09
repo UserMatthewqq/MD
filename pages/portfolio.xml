@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../style/portfolio.xslt"?>
+
+<data>
+    <images>
+        <image>
+            <url>../img/1485282143-adobe-illustrator-cc-creative-cloud_78298.png</url>
+        </image>
+        <image>
+            <url>../img/1485282149-adobe-premiere-pro-cc-creative-cloud_78301.png</url>
+        </image>
+        <image>
+            <url>../img/1485282157-adobe-photoshop-raster-graphics-editor-cc-creative-cloud_78285.png</url>
+        </image>
+        <image>
+            <url>../img/1485282160-adobe-after-effects-cc-creative-cloud-digital-visual-effects-motion-graphics-and-compositing-application_78299.png</url>
+        </image>
+        <image>
+            <url>../img/1485282164-adobe-lightroom-lr-cc-creative-cloud_78305.png</url>
+        </image>
+        <image>
+            <url>../img/1485282180-adobe-audition-cc-creative-cloud_78302.png</url>
+        </image>
+        <image>
+            <url>../img/adobe_acrobat_folder_icon_133973.png</url>
+        </image>
+        <image>
+            <url>../img/adobe_xd_macos_bigsur_icon_190424.png</url>
+        </image>
+        <image>
+            <url>../img/adobe_creative_cloud_alt_macos_bigsur_icon_190454.png</url>
+        </image>
+        <image>
+            <url>../img/adobe_indesign_folder_icon_133955.png</url>
+        </image>
+        <image>
+            <url>../img/adobe_encoder_folder_icon_133956.png</url>
+        </image>
+        <image>
+            <url>../img/Flash_icon-icons.com_76817.png</url>
+        </image>
+        <image>
+            <url>../img/1485282175-adobe-bridge-cc-creative-cloud_78303.png</url>
+        </image>
+        <image>
+            <url>../img/1485282173-adobe-muse-website-builder-cc-creative-cloud_78291.png</url>
+        </image>
+        <image>
+            <url>../img/adobe_rush_macos_bigsur_icon_190429.png</url>
+        </image>
+    </images>
+</data>
