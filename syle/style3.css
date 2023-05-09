@@ -1,0 +1,175 @@
+.h3 {
+    text-align: center;
+}
+
+.centr {
+    background-color: black;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 8px rgb(25, 25, 25);
+}
+
+.sila, .lovkost, .intellekt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-bottom: 60px;
+}
+
+.hero {
+    height: 13vw;
+    width: 13vw;
+    border: 1px solid gray;
+    margin-left: 0.6%;
+    margin-right: 0.6%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    text-align: center;
+}
+
+.hero>img{
+    height: 13vw;
+    width: 13vw;
+}
+
+.hero:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 5px 8px grey;
+}
+
+.atributi {
+    display: flex;
+    justify-content: center;
+}
+
+.atribut {
+    height: 50px;
+    width: 50px;
+    padding-left: 6px;
+    padding-right: 6px;
+    scroll-behavior: smooth;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 59px;
+    opacity: 0.45;
+}
+
+.hero:hover > .text {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 110px;
+    height: 17px;
+}
+
+.bigtext {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 62.5px;
+    opacity: 0.45;
+}
+
+.hero:hover > .bigtext {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 110px;
+    height: 14px;
+}
+
+niz {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1500px;
+    height: 250px;
+}
+
+.three_refernce {
+    z-index: 10;
+    cursor: pointer;
+}
+
+.two_refernce {
+    z-index: 10;
+    cursor: pointer;
+}
+
+.one_refernce {
+    cursor: pointer;
+    z-index: 10;
+}
+
+.gif {
+
+    border: 1px solid #ccc;
+    margin: auto auto;
+    width: 80vw;
+    height: 45vw;
+    background-size: cover;
+    background-image: url(../img/Comp\ 1.gif)
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-image: url(mobile_fonn.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .top > li > a {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 44px;
+        color: #D2CEFF;
+    }
+
+    .iconka-top {
+        margin-left: 80px;
+        height: 100px;
+        width: 110px;
+    }
+
+    .osnova {
+        width: 96%;
+    }
+
+    .centr {
+        width: 94%;
+    }
+
+    h1 {
+        font-size: 55px;
+        margin-bottom: 5px;
+    }
+
+    .text {
+        top: 77px;
+        font-size: 30px;
+        opacity: 0.53;
+    }
+
+    .bigtext {
+        top: 82px;
+        font-size: 25px;
+        opacity: 0.53;
+    }
+
+    .hero:hover > .text {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.65);
+        width: 230px;
+        height: 35px;
+    }
+
+    .hero:hover > .bigtext {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.65);
+        width: 230px;
+        height: 28px;
+    }
+}
